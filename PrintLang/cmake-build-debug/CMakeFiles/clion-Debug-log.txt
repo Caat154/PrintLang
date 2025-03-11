@@ -1,0 +1,30 @@
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/msys64/ucrt64/bin/make.exe -DCMAKE_C_COMPILER=C:/msys64/ucrt64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/msys64/ucrt64/bin/g++.exe -G "MinGW Makefiles" -S C:\Users\awita\CLionProjects\PrintLang -B C:\Users\awita\CLionProjects\PrintLang\cmake-build-debug
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/msys64/ucrt64/bin/gcc.exe
+-- Check for working C compiler: C:/msys64/ucrt64/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/msys64/ucrt64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/awita/CLionProjects/PrintLang/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1oy3zy'
+    
+    Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/make.exe -f Makefile cmTC_6fa5b/fast
+    no such file or directory
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
